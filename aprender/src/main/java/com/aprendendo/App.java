@@ -7,10 +7,14 @@ public class App {
         Calcular.subtracao(21.0, 8.0);
         Calcular.divisao(10.0, 5.0);
         Calcular.multiplicacao(3.0, 3.0);
-        System.out.println("--------------------------------");
-       
+        System.out.println("\n---Caneta---");
+        Caneta azul = new Caneta("bic", "azul", 0.5, true);
+        System.out.println(azul);
+        azul.destampar();
+        azul.desenhar();
+        System.out.println("\nManipulando datas e tempo");
+        ManipulandoDate.manupulando();
+
     }
-
-
 
 }
